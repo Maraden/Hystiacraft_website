@@ -1,0 +1,197 @@
+body {
+	background:#36393f;
+	overflow-x:hidden;
+}
+
+* {
+	font-family:sans-serif;
+	color:white;
+}
+
+*::placeholder {
+	opacity:0.8;
+}
+
+h1, h2, h4, h5, h6 {
+	text-shadow:0px 0px 8px #FF0000;
+}
+h3 {
+	text-shadow:0px 0px 8px lightblue;
+}
+
+
+.search {
+	text-align:center;
+	background:#ffffff22;
+	padding-top:20px;
+	padding-bottom:5px;
+	width:80%;
+	margin:auto;
+}
+
+.search .inside {
+	margin:auto;
+	width:650px;
+}
+
+.search input {
+	background:none;
+	border:none;
+	box-shadow:none;
+	font-size:18px;
+	border-bottom:3px solid #ffffff88;
+	transition:0.2s;
+	padding:2px 5px;
+	margin-right:10px;
+}
+
+.search input:focus {
+	border-bottom:3px solid #00ccff;
+}
+
+button {
+	border:none;
+	box-shadow:0 0 3px #00000088;
+	background:#ffbb00;
+	font-size:18px;
+	padding:3px 10px;
+	cursor:pointer;
+	transition:0.2s;
+}
+
+button:hover {
+	background:#ffc400;
+}
+
+.search h3 {
+	font-weight:normal;
+	font-size:20px;
+	cursor:pointer;
+}
+
+h2, .table h3 {
+	font-size:20px;
+	font-weight:normal;
+}
+
+.search h2 {
+	text-align:left;
+}
+
+.table {
+	text-align:center;
+	background:#ffffff22;
+	width:80%;
+	margin:auto;
+	margin-top:50px;
+	max-height:499px;
+	overflow-x:auto;
+	font-size:18px;
+}
+
+table {
+	border-collapse:collapse;
+	min-width:100%;
+	overflow-y:auto;
+	position:relative;
+}
+
+table input {
+	background:#00000044;
+	border:none;
+	box-shadow:none;
+	font-size:18px;
+	width:100%;
+	text-align:center;
+}
+
+table input::placeholder {
+	text-align:center;
+}
+
+td {
+	padding:5px 10px;
+	border:2px solid #00000022;
+	max-width:300px;
+	word-wrap:break-word;
+}
+
+th {
+	padding:5px 10px;
+	position:sticky;
+	top:0;
+	font-weight:normal;
+	border-top:none;
+	background:#515359;
+}
+
+tbody tr:nth-child(even) {
+	background:#ffffff22;
+}
+
+tbody tr:nth-child(odd) {
+	background:#ffffff44;
+}
+
+.value-menu-button {
+	transition:0.2s;
+	cursor:pointer;
+}
+
+.display {
+	color:#88ff88;
+}
+
+.hide {
+	color:#ff8888;
+}
+
+.value-menu {
+	font-size:0px;
+	opacity:0;
+	transition:0.5s;
+}
+
+.nav {
+	text-align:center;
+	margin:30px 0px;
+}
+
+.nav button {
+	font-size:40px;
+	margin:0px 10px;
+	width:50px;
+}
+
+.value-user_id {
+	pointer-events:none;
+}
+
+.edited {
+	display:none;
+	text-align:center;
+	margin:30px 0px;
+}
+
+.edited button {
+	font-size:30px;
+	margin:0px 10px;
+	height:50px;
+	width:200px;
+}
+
+.edited .red {
+	background:#dd0000;
+}
+
+.edited .green {
+	background:#00dd00;
+}
+
+.edited .red:hover {
+	background:#ee0000;
+}
+
+.edited .green:hover {
+	background:#00ee00;
+}
